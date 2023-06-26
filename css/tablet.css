@@ -1,0 +1,175 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 766px;
+    max-width: none;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .main-nav {
+    justify-content: center;
+  }
+
+  .contacts {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/desktop/desk-hero1x.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/desktop/desk-hero2x.jpg');
+    }
+  }
+
+  @media (min-device-pixel-ratio: 3),
+    (-webkit-min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/desktop/desk-hero3x.jpg');
+    }
+  }
+
+  .container > .hero-title {
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    margin-bottom: 60px;
+    width: 510px;
+  }
+
+  /* Advantages Section */
+
+  .ad-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .section-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .section-item > .item-title {
+    text-align: left;
+  }
+
+  /* Team Section */
+
+  .section.team-section {
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+
+  /* Customers Section  */
+
+  .customets-list {
+    column-gap: 24px;
+  }
+
+  .customers-link {
+    width: 168px;
+  }
+
+  /* Footer */
+
+  .footer-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding-left: 108px;
+  }
+
+  .footer-wrapper > .footer-logo-part {
+    width: 264px;
+    margin-bottom: 0;
+    margin-right: 24px;
+  }
+
+  .logo.footer-logo {
+    text-align: left;
+  }
+
+  .footer-social-part {
+    margin-bottom: 102px;
+  }
+
+  .footer-social-part > .footer-social-title {
+    text-align: left;
+  }
+
+  .subscribe-form {
+    width: auto;
+  }
+
+  .subscribe-input-wrapper {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .subscribe-info {
+    text-align: left;
+  }
+
+  .subscribe-input {
+    width: 264px;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+
+  /* Modal */
+
+  .modal {
+    width: 408px;
+    height: 586px;
+    padding-left: 23px;
+    padding-right: 25px;
+  }
+
+  /* Portfolio - Filters */
+
+  .filter-list {
+    margin-bottom: 64px;
+    justify-content: center;
+  }
+
+  .portfolio-list {
+    gap: 72px 24px;
+    justify-content: flex-start;
+  }
+
+  .portfolio-list > .portfolio-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .portfolio-img {
+    width: 356px;
+    max-width: none;
+  }
+}

@@ -1,0 +1,98 @@
+:root {
+  --menu-btn-color: #2e2f42;
+}
+
+@media screen and (min-width: 480px) {
+  .close-btn.mob-close-btn {
+    display: block;
+    padding: 0 7px;
+  }
+
+  .menu-btn-icon {
+    display: inline-block;
+    fill: var(--menu-btn-color);
+  }
+
+  /* Portfolio */
+
+  .portfolio-list {
+    justify-content: center;
+  }
+
+  /* Modal */
+
+  .modal {
+    width: 392px;
+  }
+}
+
+@media screen and (min-width: 428px) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/tablet/tab-hero1x.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/tablet/tab-hero2x.jpg');
+    }
+  }
+
+  @media (min-device-pixel-ratio: 3),
+    (-webkit-min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/tablet/tab-hero3x.jpg');
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  /* Header */
+
+  .menu-btn-icon {
+    display: inline-block;
+    fill: var(--menu-btn-color);
+  }
+
+  .mob-contacts-link.phone {
+    font-size: 26px;
+    line-height: 1.1;
+  }
+
+  .mob-soc-list {
+    gap: 38px;
+  }
+
+  .close-btn.mob-close-btn {
+    display: block;
+    padding: 0 7px;
+  }
+
+  /* Customers */
+
+  .customets-list {
+    column-gap: 10px;
+  }
+
+  .section-item > .item-title {
+    font-size: 32px;
+    line-height: 1.17;
+  }
+
+  .customers-link {
+    width: 130px;
+  }
+
+  /* Modal */
+
+  .modal {
+    min-width: 310px;
+  }
+}
